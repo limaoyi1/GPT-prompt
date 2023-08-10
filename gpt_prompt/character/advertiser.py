@@ -1,4 +1,4 @@
-from base.base_class import Prompt
+from ..base.base_class import Prompt
 
 
 class AdvertiserPrompt(Prompt):

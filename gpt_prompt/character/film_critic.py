@@ -3,7 +3,7 @@
 # @Author  : limaoyi
 # @File    : film_critic.py
 # @Software: PyCharm
-from base.base_class import Prompt
+from ..base.base_class import Prompt
 
 
 class FilmCriticPrompt(Prompt):

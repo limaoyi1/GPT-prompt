@@ -3,7 +3,7 @@
 # @Author  : limaoyi
 # @File    : debater.py
 # @Software: PyCharm
-from base.base_class import Prompt
+from ..base.base_class import Prompt
 
 
 class ExcelPrompt(Prompt):
@@ -29,6 +29,3 @@ class ExcelPrompt(Prompt):
         return result
 
 
-if __name__ == "__main__":
-    build = ExcelPrompt().build(language="chs")
-    print(build)
