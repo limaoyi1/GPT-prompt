@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="gpt-prompt",
-    version="0.0.3",
+    version="0.0.4",
     author="limaoyi",
     author_email="limaoyi@qq.com",
     description="Convenient for Python users to directly reference the source code of the GPT question template "
