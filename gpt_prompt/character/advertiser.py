@@ -1,4 +1,7 @@
-from ..base.base_class import Prompt
+if __name__ == "__main__":
+    from gpt_prompt.base.base_class import Prompt
+else:
+    from ..base.base_class import Prompt
 
 
 class AdvertiserPrompt(Prompt):

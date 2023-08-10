@@ -3,8 +3,8 @@
 # @Author  : limaoyi
 # @File    : test.py
 # @Software: PyCharm
-from gpt_prompt.tools.excel import ExcelPrompt
+from gpt_prompt.character.advertiser import AdvertiserPrompt
 
 if __name__ == '__main__':
-    build = ExcelPrompt().build(language="chs")
+    build = AdvertiserPrompt().build(language="en")
     print(build)
