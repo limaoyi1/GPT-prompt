@@ -30,6 +30,25 @@
 >The goal of this library is to integrate all common GPT questions, so that questions can no longer cause programmers pain
 >Make the universal question library the first choice for all AI frameworks. Isn't that cool?
 
+## 使用方法
+```bash
+pip install gpt-prompt
+```
+> 或者
+```bash
+pip install -i https://pypi.org/simple/ gpt-prompt
+```
+
+## Usage Instructions
+```bash
+pip install gpt-prompt
+```
+> Alternatively,
+```bash
+pip install -i https://pypi.org/simple/ gpt-prompt
+```
+
+
 ## 欢迎大家随时反馈和提交
 >众人拾柴火焰高
 

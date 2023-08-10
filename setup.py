@@ -21,9 +21,9 @@ setuptools.setup(
     #         'douyin_image=douyin_image:main'
     #     ],
     # },
-    classifiers=(
+    classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
-    ),
+    ],
 )
