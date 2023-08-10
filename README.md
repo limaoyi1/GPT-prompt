@@ -32,20 +32,20 @@
 
 ## 使用方法
 ```bash
-pip install gpt-prompt
+pip install gpt_prompt
 ```
 > 或者
 ```bash
-pip install -i https://pypi.org/simple/ gpt-prompt
+pip install -i https://pypi.org/simple/ gpt_prompt
 ```
 
 ## Usage Instructions
 ```bash
-pip install gpt-prompt
+pip install gpt_prompt
 ```
 > Alternatively,
 ```bash
-pip install -i https://pypi.org/simple/ gpt-prompt
+pip install -i https://pypi.org/simple/ gpt_prompt
 ```
 
 
