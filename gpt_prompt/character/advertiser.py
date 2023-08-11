@@ -21,5 +21,5 @@ class AdvertiserPrompt(Prompt):
 
 
 if __name__ == "__main__":
-    build = AdvertiserPrompt().build(language="en")
+    build = AdvertiserPrompt().build(language="chs")
     print(build)
