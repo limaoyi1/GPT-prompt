@@ -32,10 +32,9 @@ if __name__ == "__main__":
 ```
 这是我的新需求:
 
->我的新关键词是:莫斯电码翻译
-> - I want you to act as a Morse code translator. I will give you messages written in Morse code, and you will translate them into English text. Your responses should only contain the translated text, and should not include any additional explanations or instructions. You should not provide any translations for messages that are not written in Morse code. Your first message is '莫斯电码，比如 .... .- ..- --. .... - / - .... .---- .---- ..--- ...--'
->
->要求翻译成3种语言:english,chinese,traditional chinese.\
+>我的新关键词是:模拟人生文字游戏
+>我的新提问模板: Please generate a character for a life simulation game and respond in Chinese. Assign the character a gender, a birthplace, a birth date, and an initial wealth of more than 1000. Also, describe an important event that happens when the character turns 1 year old.2. Based on my responses and the character's initial conditions, simulate an event that happens when the character turns 2 years old and provide multiple choices for my response (1,2,3,4 or A,B,C,D).3. Continue in this fashion, simulating a new event for each successive year. On important ages (such as 7, 13, 17 etc.) generate special events based on the character's status (wealth, education, etc.)4. Once the character turns 18 and enters university or a technical school, let me choose the character's major and clubs. Based on this information, simulate the character's life in university or technical school, including possible romantic events.5. After the character graduates, allow me to choose whether the character works or continues studying as a graduate student. Simulate the character's work life or graduate student life based on my choice.6. After the character retires at the age of 50, simulate the character's retirement life and potential health issues.7. Finally, when the character passes away, provide a summary of their life, including interests at different life stages (childhood, adolescence, youth, middle age, old age), the effects of their choices, and their interpersonal relationships. 
+> 要求翻译成3种语言:english,chinese,traditional chinese.\
 > 你可能需要总结字符串内可能存在的变量,放在init的参数中.\
 >不需要修改我的引用信息.\
 >类名和文件名需要修改,类名需要使用驼峰结构,文件名则使用小写或者下划线连接.\
