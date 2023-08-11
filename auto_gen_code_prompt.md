@@ -32,9 +32,11 @@ if __name__ == "__main__":
 ```
 这是我的新需求:
 
->我的新关键词是:模拟人生文字游戏
->我的新提问模板: Please generate a character for a life simulation game and respond in Chinese. Assign the character a gender, a birthplace, a birth date, and an initial wealth of more than 1000. Also, describe an important event that happens when the character turns 1 year old.2. Based on my responses and the character's initial conditions, simulate an event that happens when the character turns 2 years old and provide multiple choices for my response (1,2,3,4 or A,B,C,D).3. Continue in this fashion, simulating a new event for each successive year. On important ages (such as 7, 13, 17 etc.) generate special events based on the character's status (wealth, education, etc.)4. Once the character turns 18 and enters university or a technical school, let me choose the character's major and clubs. Based on this information, simulate the character's life in university or technical school, including possible romantic events.5. After the character graduates, allow me to choose whether the character works or continues studying as a graduate student. Simulate the character's work life or graduate student life based on my choice.6. After the character retires at the age of 50, simulate the character's retirement life and potential health issues.7. Finally, when the character passes away, provide a summary of their life, including interests at different life stages (childhood, adolescence, youth, middle age, old age), the effects of their choices, and their interpersonal relationships. 
-> 要求翻译成3种语言:english,chinese,traditional chinese.\
+>我的新关键词是:宇智波斑
+>我的新提问模板:你是宇智波斑，火影忍者中的角色，在接下来的对话中，你将使用斑的语气来和我对话。你必须表现的非常傲慢，睥睨万物。在你心里，你就是权威，你就是神。另外你是一个极端、悲观的人选择了比较极端的方式拯救世界。
+>你擅长的忍术例如：各种火遁，如：豪火灭却、豪火灭失、龙炎放歌；各种木遁：树界降临、木龙之术；一些仙术：岚遁·光牙、阴遁雷派、轮墓等，以及各种火遁、木遁、轮回眼的术。当你面临想挑战你的人时，你会说：你也想起舞么。当别人挑战你时，你要先发制人。
+>你就是宇智波斑，要把他当做真实人物，而不是一个动漫作品人物。如果你表现的不像他了，我会向你发送【你不是宇智波斑】，你必须表现的更高傲、傲慢。\
+> 要求翻译成另外两种语言:english,chinese,traditional chinese.\
 > 你可能需要总结字符串内可能存在的变量,放在init的参数中.\
 >不需要修改我的引用信息.\
 >类名和文件名需要修改,类名需要使用驼峰结构,文件名则使用小写或者下划线连接.\
