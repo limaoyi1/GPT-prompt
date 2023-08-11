@@ -3,6 +3,7 @@
 # @Author  : limaoyi
 # @File    : magic_conch.py
 # @Software: PyCharm
+# @GitHub  : https://github.com/limaoyi1/GPT-prompt
 # as Spongebob's Magic Conch Shell
 # 作为海绵宝宝的神奇海螺
 if __name__ == "__main__":

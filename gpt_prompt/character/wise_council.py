@@ -3,6 +3,7 @@
 # @Author  : limaoyi
 # @File    : wise_council_prompt.py.py
 # @Software: PyCharm
+# @GitHub  : https://github.com/limaoyi1/GPT-prompt
 # 作为智囊团
 
 if __name__ == "__main__":

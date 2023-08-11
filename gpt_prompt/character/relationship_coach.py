@@ -3,5 +3,6 @@
 # @Author  : limaoyi
 # @File    : relationship_coach.py
 # @Software: PyCharm
+# @GitHub  : https://github.com/limaoyi1/GPT-prompt
 # 关系教练 情感类
 

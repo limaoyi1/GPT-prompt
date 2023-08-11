@@ -3,6 +3,7 @@
 # @Author  : limaoyi
 # @File    : ceo.py
 # @Software: PyCharm
+# @GitHub  : https://github.com/limaoyi1/GPT-prompt
 # as a CEO
 # 作为一个首席执行官
 if __name__ == "__main__":

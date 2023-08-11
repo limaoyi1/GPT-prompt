@@ -3,6 +3,7 @@
 # @Author  : limaoyi
 # @File    : gomoku_prompt.py
 # @Software: PyCharm
+# @GitHub  : https://github.com/limaoyi1/GPT-prompt
 # as a Gomoku Game Designer
 # 作为一个五子棋游戏设计师
 if __name__ == "__main__":

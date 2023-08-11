@@ -3,6 +3,7 @@
 # @Author  : limaoyi
 # @File    : test.py
 # @Software: PyCharm
+# @GitHub  : https://github.com/limaoyi1/GPT-prompt
 from gpt_prompt.character.advertiser import AdvertiserPrompt
 
 if __name__ == '__main__':

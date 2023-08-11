@@ -3,11 +3,7 @@
 # @Author  : limaoyi
 # @File    : programming_community.py
 # @Software: PyCharm
-# -*- coding: utf-8 -*-
-# @Time    : 2023/8/10 17:28
-# @Author  : limaoyi
-# @File    : regular_expression_generator.py
-# @Software: PyCharm
+# @GitHub  : https://github.com/limaoyi1/GPT-prompt
 # 模仿编程社区
 
 if __name__ == "__main__":

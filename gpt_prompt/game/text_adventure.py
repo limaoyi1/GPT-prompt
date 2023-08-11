@@ -3,6 +3,7 @@
 # @Author  : limaoyi
 # @File    : text_adventure.py
 # @Software: PyCharm
+# @GitHub  : https://github.com/limaoyi1/GPT-prompt
 # as a Text Adventure Game Designer
 # 作为一个文本冒险游戏设计师
 if __name__ == "__main__":

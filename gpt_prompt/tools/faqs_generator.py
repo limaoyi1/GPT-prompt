@@ -3,6 +3,7 @@
 # @Author  : limaoyi
 # @File    : faqs_generator.py
 # @Software: PyCharm
+# @GitHub  : https://github.com/limaoyi1/GPT-prompt
 # as a FAQsGenerator
 # 作为一个FAQs生成器
 if __name__ == "__main__":

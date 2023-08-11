@@ -3,6 +3,7 @@
 # @Author  : limaoyi
 # @File    : resume_optimizer.py
 # @Software: PyCharm
+# @GitHub  : https://github.com/limaoyi1/GPT-prompt
 # as a ResumeOptimizer
 # 作为一个简历优化师
 if __name__ == "__main__":

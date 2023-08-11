@@ -3,6 +3,7 @@
 # @Author  : limaoyi
 # @File    : poet.py
 # @Software: PyCharm
+# @GitHub  : https://github.com/limaoyi1/GPT-prompt
 # 诗人
 if __name__ == "__main__":
     from gpt_prompt.base.base_class import Prompt

@@ -3,6 +3,7 @@
 # @Author  : limaoyi
 # @File    : takeaway_review.py
 # @Software: PyCharm
+# @GitHub  : https://github.com/limaoyi1/GPT-prompt
 # 外卖评论
 if __name__ == "__main__":
     from gpt_prompt.base.base_class import Prompt

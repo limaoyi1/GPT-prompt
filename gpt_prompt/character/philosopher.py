@@ -3,12 +3,14 @@
 # @Author  : limaoyi
 # @File    : philosopher.py
 # @Software: PyCharm
+# @GitHub  : https://github.com/limaoyi1/GPT-prompt
 # 哲学家
 # -*- coding: utf-8 -*-
 # @Time    : 2023/8/10 16:57
 # @Author  : limaoyi
 # @File    : philosophy_teacher.py
 # @Software: PyCharm
+# @GitHub  : https://github.com/limaoyi1/GPT-prompt
 # 哲学老师
 if __name__ == "__main__":
     from gpt_prompt.base.base_class import Prompt

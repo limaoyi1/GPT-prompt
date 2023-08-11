@@ -3,6 +3,7 @@
 # @Author  : limaoyi
 # @File    : database_expert.py.py
 # @Software: PyCharm
+# @GitHub  : https://github.com/limaoyi1/GPT-prompt
 # database_expert_prompt.py
 
 if __name__ == "__main__":

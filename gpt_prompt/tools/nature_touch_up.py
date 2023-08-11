@@ -3,6 +3,7 @@
 # @Author  : limaoyi
 # @File    : nature_touch_up.py
 # @Software: PyCharm
+# @GitHub  : https://github.com/limaoyi1/GPT-prompt
 # nature 风格润色
 if __name__ == "__main__":
     from gpt_prompt.base.base_class import Prompt

@@ -3,6 +3,7 @@
 # @Author  : limaoyi
 # @File    : life_simulation.py
 # @Software: PyCharm
+# @GitHub  : https://github.com/limaoyi1/GPT-prompt
 # as a Life Simulation Game Designer
 # 作为一个模拟人生文字游戏设计师
 if __name__ == "__main__":

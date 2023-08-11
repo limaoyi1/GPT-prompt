@@ -3,12 +3,8 @@
 # @Author  : limaoyi
 # @File    : regular_expression_generator.py
 # @Software: PyCharm
+# @GitHub  : https://github.com/limaoyi1/GPT-prompt
 # 正则表达式生成器
-# -*- coding: utf-8 -*-
-# @Time    : 2023/8/10 17:24
-# @Author  : limaoyi
-# @File    : emoji_translation.py
-# @Software: PyCharm
 
 if __name__ == "__main__":
     from gpt_prompt.base.base_class import Prompt
