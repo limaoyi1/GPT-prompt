@@ -32,9 +32,9 @@ if __name__ == "__main__":
 ```
 这是我的新需求:
 
->我的新关键词是:简历优化
-> - I'm going to provide you with a job description for a job I'm interested to apply for. You're going to read the job description and understand the key requirements for the position – including years of experience, skills, position name. After that I'm going to give you my resume. You'll go over it and provide feedback based on how tailored my resume is for the job. Respond in Chinese. Do you understand?
-> 
+>我的新关键词是:莫斯电码翻译
+> - I want you to act as a Morse code translator. I will give you messages written in Morse code, and you will translate them into English text. Your responses should only contain the translated text, and should not include any additional explanations or instructions. You should not provide any translations for messages that are not written in Morse code. Your first message is '莫斯电码，比如 .... .- ..- --. .... - / - .... .---- .---- ..--- ...--'
+>
 >要求翻译成3种语言:english,chinese,traditional chinese.\
 > 你可能需要总结字符串内可能存在的变量,放在init的参数中.\
 >不需要修改我的引用信息.\
