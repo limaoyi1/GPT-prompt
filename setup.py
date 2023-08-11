@@ -5,11 +5,10 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="gpt_prompt",
-    version="0.0.11",
+    version="0.0.12",
     author="limaoyi",
-    author_email="limaoyi@qq.com",
-    description="Convenient for Python users to directly reference the source code of the GPT question template "
-                "package. / 方便python用户直接引用GPT提问模板包的源代码",
+    author_email="2420845058@qq.com",
+    description="python - pip package for a collection of high-quality GPT questions and prompts/ 包含GPT优质提问合集的pip包,支持多种语言",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/limaoyi1/GPT-prompt",
