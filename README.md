@@ -75,8 +75,4 @@ if __name__ == '__main__':
 
 ## 🌟 Star History
 
-<br>
-
 [![Star History Chart](https://api.star-history.com/svg?repos=limaoyi1/GPT-prompt&type=Timeline)](https://star-history.com/#limaoyi1/GPT-prompt&Timeline)
-
-</br>
