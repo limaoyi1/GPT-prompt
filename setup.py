@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="gpt_prompt",
-    version="0.0.12",
+    version="0.0.13",
     author="limaoyi",
     author_email="2420845058@qq.com",
     description="python - pip package for a collection of high-quality GPT questions and prompts/ 包含GPT优质提问合集的pip包,支持多种语言",
