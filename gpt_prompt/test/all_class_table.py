@@ -63,16 +63,18 @@ table_rows = []
 instances = {}  # 创建一个字典来存储实例化的对象
 class_dict = get_all_class_from_modules(get_all_modules(get_all_modules_path('../../gpt_prompt')))
 for key, value in class_dict.items():
-    print(key, value)
+    # print(key, value)
     try:
         instance = value()  # 创建类的实例
         instances[value] = instance  # 将实例添加到字典中
-        print(f"Instance of {key} created successfully.")
+        print(key.replace('Prompt', ''), end=',')
+        # print(f"Instance of {key} created successfully.")
         table_row = [key, instance.english.replace('\n', ' ').strip(), instance.chinese.replace('\n', ' ').strip(), instance.traditional_chinese.replace('\n', ' ').strip()]
         table_rows.append(table_row)
     except Exception as e:
-        print(f"Failed to create instance of {key}: {e}")
-
+        # print(f"Failed to create instance of {key}: {e}")
+        pass
+print()
 # 构建Markdown格式的表格内容
 for row in table_rows:
     markdown_table += f"\n| {' | '.join(row)} |"

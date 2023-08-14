@@ -64,6 +64,9 @@ if __name__ == '__main__':
     build = AdvertiserPrompt().build(language="en")
     print(build)
 ```
+## 支持的提问词
+>AIDoctor,Accountant,Advertiser,Antidan,Astrologer,Buddha,CEO,Composer,Cosplayer,DatabaseExpert,Debater,DeveloperMode,DialogueGenerator,DomainGenerator,DreamInterpreter,Drunk,EmojiTranslation,EnglishPronunciationHelper,Excel,FAQsGenerator,FilmCritic,FinancialAnalyst,FootballCommentator,Gomoku,ITArchitect,JavaScript,LifeSimulation,LittleFedBook,MagicConchShell,MathTeacher,MidjourneyGenerator,MongoTom,MorseCodeTranslator,MotivationalCoach,MotivationalSpeaker,Nature,Nutritionist,ParentingAssistant,Philosopher,PhilosophyTeacher,Poet,ProgrammingCommunity,,PythonInterpreter,Rapper,RegularExpressionGenerator,ResumeOptimizer,Screenwriter,Seller,Socrates,SongRecommender,TakeawayReview,TextAdventure,TicTacToe,UchihaItachi,UnsupportedLanguageError,WeeklyGenerator,WiseCouncil,WritingAssistant,WritingMaterialsCollector,auto,novelist,
+
 
 ## 欢迎大家随时反馈和提交
 >众人拾柴火焰高
