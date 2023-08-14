@@ -57,29 +57,39 @@ def get_all_modules_path(dir):
 # 实例化对象示例
 # todo: md表头: 类名 , 英文, 中文 ,繁体中文
 # 构建Markdown表格头部
-markdown_table = "| class | english | 中文 | 繁體中文 |\n|------|------|------|----------|"
+markdown_table = "## Chart: \n| class | english | 中文 | 繁體中文 |\n|------|------|------|----------|"
 table_rows = []
-
+all_class = "## Supported prompt words: \n"
 instances = {}  # 创建一个字典来存储实例化的对象
-class_dict = get_all_class_from_modules(get_all_modules(get_all_modules_path('../../gpt_prompt')))
+class_dict = get_all_class_from_modules(get_all_modules(get_all_modules_path('./gpt_prompt')))
 for key, value in class_dict.items():
     # print(key, value)
     try:
         instance = value()  # 创建类的实例
         instances[value] = instance  # 将实例添加到字典中
-        print(key.replace('Prompt', ''), end=',')
+        all_class +=key.replace('Prompt', '')+","
         # print(f"Instance of {key} created successfully.")
         table_row = [key, instance.english.replace('\n', ' ').strip(), instance.chinese.replace('\n', ' ').strip(), instance.traditional_chinese.replace('\n', ' ').strip()]
         table_rows.append(table_row)
     except Exception as e:
         # print(f"Failed to create instance of {key}: {e}")
         pass
-print()
+
 # 构建Markdown格式的表格内容
 for row in table_rows:
     markdown_table += f"\n| {' | '.join(row)} |"
+print("# manual \n")
+
+print(all_class)
 
 # 输出Markdown表格
 print(markdown_table)
+
+# Write content to a file
+file_path = "manual.md"  # You can change the filename if needed
+with open(file_path, "w", encoding="utf-8") as file:
+    file.write("# manual \n")
+    file.write(all_class)
+    file.write(markdown_table)
 
 # 原文链接：https://blog.csdn.net/qq_40666620/article/details/107988639
