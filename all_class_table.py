@@ -89,7 +89,7 @@ print(markdown_table)
 file_path = "manual.md"  # You can change the filename if needed
 with open(file_path, "w", encoding="utf-8") as file:
     file.write("# manual \n")
-    file.write(all_class)
+    file.write(all_class + "\n")
     file.write(markdown_table)
 
 # 原文链接：https://blog.csdn.net/qq_40666620/article/details/107988639

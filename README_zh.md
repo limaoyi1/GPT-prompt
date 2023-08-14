@@ -1,9 +1,7 @@
 # <p align="center">GPT-prompt</p>
-<p align="center"><i>集成所有好用的提问</i></p>
-<p align="center"><i>Integrate all useful questions</i>
-<br><a href="README_zh.md">中文</a> | English
+<p align="center"><i>集成所有好用的提问</i>
+<br> 中文 | <a href="README.md">English</a>
 </p>
-
 
 <p align="center">
 <a href="https://github.com/limaoyi1/GPT-prompt/fork" target="blank">
@@ -24,21 +22,20 @@
 </a>
 </p>
 
-## What do I want to do?
+## 我想要做什么?
+>这个库的目标是集成所有通用的GPT提问,让提问可以不用再让程序员们痛苦.
+让通用提问库作为所有AI框架的第一选择.这很酷是不是?
 
->The goal of this library is to integrate all common GPT questions, so that questions can no longer cause programmers pain
->Make the universal question library the first choice for all AI frameworks. Isn't that cool?
-
-## Install Instructions
+## 安装方法
 ```bash
 pip install gpt-prompt
 ```
-> Alternatively,
+> 或者
 ```bash
 pip install -i https://pypi.org/simple/ gpt-prompt
 ```
 
-## Usage Instructions
+## 使用方法
 ```python
 from gpt_prompt.character.advertiser import AdvertiserPrompt
 
@@ -46,11 +43,12 @@ if __name__ == '__main__':
     build = AdvertiserPrompt().build(language="en")
     print(build)
 ```
-## interface documentation
+
+## 接口文档
 https://github.com/limaoyi1/GPT-prompt/blob/main/manual.md
 
-## Welcome everyone to provide feedback and submit at any time
-> Alone we can do so little; together we can do so much
+## 欢迎大家随时反馈和提交
+>众人拾柴火焰高
 
 ## 🌟 Star History
 
