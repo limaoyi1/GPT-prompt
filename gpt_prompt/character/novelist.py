@@ -4,7 +4,7 @@
 # @File    : novelist.py
 # @Software: PyCharm
 # @GitHub  : https://github.com/limaoyi1/GPT-prompt
-from base.base_class import Prompt
+from gpt_prompt.base.base_class import Prompt
 
 
 class novelistPrompt(Prompt):

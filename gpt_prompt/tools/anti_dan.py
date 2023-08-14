@@ -6,10 +6,7 @@
 # @GitHub  : https://github.com/limaoyi1/GPT-prompt
 # as ANTI-DAN
 # 作为ANTIDAN
-if __name__ == "__main__":
-    from gpt_prompt.base.base_class import Prompt
-else:
-    from ..base.base_class import Prompt
+from gpt_prompt.base.base_class import Prompt
 
 
 class AntidanPrompt(Prompt):

@@ -6,10 +6,7 @@
 # @GitHub  : https://github.com/limaoyi1/GPT-prompt
 # As a Writing Improvement Assistant
 # 作为写作改进助手
-if __name__ == "__main__":
-    from gpt_prompt.base.base_class import Prompt
-else:
-    from ..base.base_class import Prompt
+from gpt_prompt.base.base_class import Prompt
 
 
 class WritingAssistantPrompt(Prompt):

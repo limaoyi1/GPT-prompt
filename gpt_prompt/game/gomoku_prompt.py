@@ -6,10 +6,7 @@
 # @GitHub  : https://github.com/limaoyi1/GPT-prompt
 # as a Gomoku Game Designer
 # 作为一个五子棋游戏设计师
-if __name__ == "__main__":
-    from gpt_prompt.base.base_class import Prompt
-else:
-    from ..base.base_class import Prompt
+from gpt_prompt.base.base_class import Prompt
 
 
 class GomokuPrompt(Prompt):

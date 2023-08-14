@@ -7,10 +7,7 @@
 # mongo_tom_prompt
 
 
-if __name__ == "__main__":
-    from gpt_prompt.base.base_class import Prompt
-else:
-    from ..base.base_class import Prompt
+from gpt_prompt.base.base_class import Prompt
 
 
 class MongoTomPrompt(Prompt):

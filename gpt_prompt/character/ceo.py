@@ -6,10 +6,7 @@
 # @GitHub  : https://github.com/limaoyi1/GPT-prompt
 # as a CEO
 # 作为一个首席执行官
-if __name__ == "__main__":
-    from gpt_prompt.base.base_class import Prompt
-else:
-    from ..base.base_class import Prompt
+from gpt_prompt.base.base_class import Prompt
 
 
 class CEOPrompt(Prompt):

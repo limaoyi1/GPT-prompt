@@ -6,10 +6,7 @@
 # @GitHub  : https://github.com/limaoyi1/GPT-prompt
 # as an ITArchitect
 # 作为一个架构师
-if __name__ == "__main__":
-    from gpt_prompt.base.base_class import Prompt
-else:
-    from ..base.base_class import Prompt
+from gpt_prompt.base.base_class import Prompt
 
 
 class ITArchitectPrompt(Prompt):

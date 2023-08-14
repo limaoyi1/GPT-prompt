@@ -3,10 +3,7 @@
 ```python
 # as a Poet
 # 作为一个诗人
-if __name__ == "__main__":
-    from gpt_prompt.base.base_class import Prompt
-else:
-    from ..base.base_class import Prompt
+from gpt_prompt.base.base_class import Prompt
 
 
 class PoetPrompt(Prompt):

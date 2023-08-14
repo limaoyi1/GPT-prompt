@@ -5,10 +5,7 @@
 # @Software: PyCharm
 # @GitHub  : https://github.com/limaoyi1/GPT-prompt
 # ai 医生
-if __name__ == "__main__":
-    from gpt_prompt.base.base_class import Prompt
-else:
-    from ..base.base_class import Prompt
+from gpt_prompt.base.base_class import Prompt
 
 
 class AIDoctorPrompt(Prompt):

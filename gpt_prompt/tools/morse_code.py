@@ -7,10 +7,7 @@
 # morse_code_translator.py
 # morse_code_translator.py
 
-if __name__ == "__main__":
-    from gpt_prompt.base.base_class import Prompt
-else:
-    from ..base.base_class import Prompt
+from gpt_prompt.base.base_class import Prompt
 import re
 
 

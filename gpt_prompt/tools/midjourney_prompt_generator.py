@@ -6,10 +6,7 @@
 # @GitHub  : https://github.com/limaoyi1/GPT-prompt
 # as a Prompt Generator for Midjourney's AI program
 # 作为 Midjourney 人工智能程序的提示生成器
-if __name__ == "__main__":
-    from gpt_prompt.base.base_class import Prompt
-else:
-    from ..base.base_class import Prompt
+from gpt_prompt.base.base_class import Prompt
 
 
 class MidjourneyPromptGenerator(Prompt):
